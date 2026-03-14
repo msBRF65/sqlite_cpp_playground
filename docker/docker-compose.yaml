@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  sqlite_cpp:
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    tty: true
+    command: /bin/bash
+    stdin_open: true
+    ports:
+      - 1000:1000
+    volumes:
+      - $HOME/sqlite_cpp_playground/:/home/ubuntu/sqlite_cpp_playground
+      - $HOME/.Xauthority:/root/.Xauthority

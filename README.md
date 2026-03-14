@@ -1,1 +1,1 @@
-# mysql_cpp_playground
+# sqlite_cpp_playground
