@@ -10,5 +10,5 @@ services:
     ports:
       - 1000:1000
     volumes:
-      - $HOME/sqlite_cpp_playground/:/home/ubuntu/sqlite_cpp_playground
+      - $HOME/sqlite_cpp_playground/:/home/dev/sqlite_cpp_playground
       - $HOME/.Xauthority:/root/.Xauthority
